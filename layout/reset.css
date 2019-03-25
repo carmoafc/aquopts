@@ -1,0 +1,109 @@
+
+
+h1{
+	margin:15px 0 15px 0;
+	text-align: center;
+}
+
+h2{
+	margin:10px 0 10px 0;
+}
+
+h3{
+	margin:7px 0 7px 0;
+}
+
+h4{
+	margin:4px 0 4px 0;
+}
+
+p{
+	margin: 10px 0 2px 0;
+	text-align: justify;
+}
+
+td{
+	padding: 5px;
+}
+
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+* */
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: normal;
+    color: black;
+    background: white;
+}
+
+ol, ul {
+    /*list-style: none;*/
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before, blockquote:after,q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+input, textarea, select{
+	border: 1px solid #BBBBBB;
+	padding: 3px;
+	
+	margin: 2px;
+	padding: 2px;
+}
+
+tr, td, table, th{
+	border: 1px solid #BBBBBB;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+   border-top-color: #4f1e00;
+   background: #4f1e00;
+   color: #ccc;
+   }
+
+input[type=button], input[type=submit] 
+ { 
+        background-color: red;
+		border: 3px solid #000;
+		color: #FFF;
+		padding: 3px;
+		
+		-moz-border-radius:20px;
+	    -webkit-border-radius:20px;
+	     border-radius:20px;
+		 
+		 cursor  : pointer;
+		
+		font-family : 'voltaeftu-regular',Times New Roman;
+		font-weight: bold;
+		text-shadow: -1px -1px 2px #777777;
+			  			  
+									 
+ }

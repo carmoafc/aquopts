@@ -1,0 +1,35 @@
+/*REGISTRARRRRRRRRRR*/
+input, textarea, select{
+	border:1px solid #b5b5ff;
+	background-color:#e1e1ff;
+	margin:5px;
+}
+.dadosFrente{
+	background-color:#f1f1ff;
+}
+
+.dadosFrente td{
+	padding:2px;
+	border:1px solid #FFFFFF;
+}
+
+/*tr, td, table, */th{
+	padding:5px;
+	margin:5px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+th{
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.botao{
+	cursor:pointer;
+	padding:3px;
+	text-decoration:underline;
+	font-weight:bold;
+	text-transform:capitalize;
+	border:1px solid black;
+	/*background:url("imagens/bg_botao.jpg") repeat-x;*/
+}
